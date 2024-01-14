@@ -1,0 +1,19 @@
+{
+  "name": "netflix-payments",
+  "version": "1.0.0",
+  "description": "NETFLIX Payments through PHONEPE. A payment service for my NETFLIX-CLONE By Bhavesh Patil.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhavesh Dilip Patil",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.7.1"
+  }
+}
