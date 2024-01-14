@@ -12,7 +12,7 @@ const newPayment = async (req, res) => {
             merchantUserId: "MUID123",
             name: name,
             amount: amount * 100,
-            redirectUrl: `http://localhost:5000/api/status/${merchantTransactionId}`,
+            redirectUrl: `https://netflix-clone-payments.onrender.com/api/status/${merchantTransactionId}`,
             redirectMode: 'POST',
             mobileNumber: number,
             paymentInstrument: {
